@@ -465,7 +465,7 @@ var text = draw.text(function(add) {
 })
 ```
 
-As a more convinient syntax for newlines it is also possible to use the `newLine()` constructor instead of `tspan(...).newLine()`:
+As a more convenient syntax for newlines it is also possible to use the `newLine()` constructor instead of `tspan(...).newLine()`:
 
 ```javascript
 var text = draw.text(function(add) {
@@ -488,7 +488,7 @@ This is a shortcut to the `plain` method on the `SVG.Text` instance which doesn'
 
 `returns` __`itself`__
 
-Unlike other elements, text is usually positioned accordining to its baseline and textanchor. Svg.js gives you the possibilitie to move every shape by its upper left corner.
+Unlike other elements, text is usually positioned according to its baseline and textanchor. Svg.js gives you the possibilitie to move every shape by its upper left corner.
 However, sometimes it is needed to move text by baseline and anchor. This can be realized with `amove()`
 
 ```js
